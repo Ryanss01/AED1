@@ -7,7 +7,7 @@ int main (void){
     scanf("%d", &numero);
 
     ponteiro = &numero;
-    printf("Numero = %d \n ponteiro = &p");
+    printf("Numero = %d \n ponteiro = &p", numero, ponteiro);
 
     return 0;
 }
